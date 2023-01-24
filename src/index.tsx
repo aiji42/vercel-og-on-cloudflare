@@ -5,7 +5,7 @@ import { loadGoogleFont } from "./fonts";
 export default {
   async fetch(request: Request): Promise<ImageResponse> {
     const params = new URLSearchParams(new URL(request.url).search);
-    const title = params.get("t") || "hello world";
+    const title = params.get("t") || "Hello world 🏞";
 
     const font = await loadGoogleFont({
       family: "M PLUS 1p",
