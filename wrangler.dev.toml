@@ -1,0 +1,4 @@
+name = "vercel-og-on-cloudflare"
+main = "src/index.tsx"
+compatibility_date = "2023-01-24"
+compatibility_flags = ["streams_enable_constructors"]
